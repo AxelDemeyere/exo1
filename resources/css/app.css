@@ -1,3 +1,50 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+    font-family: Poppins, sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 3rem
+}
+
+.content .text {
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 60%;
+    background-color: antiquewhite;
+    backdrop-filter: blur(20px);
+    padding: 1em;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
